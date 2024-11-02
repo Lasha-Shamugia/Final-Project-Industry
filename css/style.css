@@ -356,16 +356,17 @@ h1 {
   right: 4%;
   top: 70%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: rgba(184, 5, 5, 0.813);
+  background-color: white;
   border: none;
   border-radius: 15px;
-  color: white;
+  color: black;
+  border: 3px solid rgb(163, 4, 4);
   font-size: 22px;
 }
 .button-add:hover {
-  color: rgb(33, 33, 33);
-  background-color: #ffffff;
-  border: 3px solid rgb(163, 4, 4);
+  color: white;
+  background-color: rgb(163, 4, 4);
+  border: 3px solid rgb(0, 0, 0);
 }
 
 
@@ -392,7 +393,7 @@ h1 {
   margin-top: 2%;
   font-size: 18px;
   color: #939090;
-  margin-bottom: 14px;
+  margin: 16px 2px;
   }
 .section__gray .flex__row {
   display: flex;
@@ -467,18 +468,21 @@ label {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #e0e0e0;
+  color: black;
+  border: 2px solid rgb(163, 4, 4);
   width: 100%;
   padding: 12px 20px;
-  border: none;
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  font-size: 23px;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(163, 4, 4);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(29, 29, 29);
 }
 
 .container {
@@ -496,4 +500,51 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
+}
+
+
+
+/* footer */
+
+.footer {
+  display: flex;
+  max-width: 1440px;
+  width: 90%;
+  padding: 2rem 2rem;
+  margin: 0 auto;
+  column-gap: 14%;
+}
+
+.columns-divs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 32px;
+}
+
+.footer-icons {
+  display: flex;
+  column-gap: 18%;
+  justify-items: center;
+}
+.column {
+  width: 76%;
+}
+.column-title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.ul-list {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  row-gap: 32px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28.8px;
+  color: #191825BF;
+}
+.contact {
+  font-size: 18px;
 }
