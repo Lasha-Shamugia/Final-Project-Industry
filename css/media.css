@@ -1,0 +1,142 @@
+/* @media screen and (max-width: 1024px) {
+  .menu-div {
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .hamburger,
+  .toggle-menu {
+    display: block;
+  }
+  .toggle-menu {
+    opacity: 0;
+  }
+  .header {
+    padding: 0px 15px;
+  }
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding-top: 75px;
+    box-shadow: -20px 0 48px rgba(0, 0, 0, 0.3);
+  }
+  .menu li {
+    width: 100%;
+  }
+  .navigation .menu li a{
+    padding: 1rem;
+    color:rgb(99, 99, 99);
+    background-color: rgba(255, 255, 255, 0.779);
+  }
+  .navigation .menu li a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+  }
+  .toggle-menu {
+    order: 3;
+  }
+  .logo {
+    margin-top: 0.5rem;
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-wraper {
+    order: 2;
+  }
+  .sign-btn {
+    width: 6rem;
+    height: 2.5rem;
+  }
+  .menu-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    justify-content: start;
+  }
+  .menu-img {
+    margin-left: 1rem;
+  }
+  .cards-div {
+    justify-content: start;
+  }
+  .card {
+    margin-left: 1rem;
+    width: 100%;
+  }
+  .main-div {
+    gap: 8%;
+    padding: 6rem 2rem;
+  }
+  .plus {
+    width: 10%;
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 64px;
+  }
+  .text-p {
+    font-size: 38px;
+    padding: 0 2rem;
+    line-height: 44px;
+  }
+  .btn-order-now {
+    width: 12rem;
+    height: 3rem;
+  }
+  .text-paragraph {
+    font-size: 42px;
+    margin-top: 16%;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .sign-btn {
+    width: 5rem;
+    height: 2.5rem;
+  }
+  .login-btn {
+    padding-right: 0.3rem;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 44px;
+  }
+  .text-p {
+    font-size: 28px;
+    padding: 0 2rem;
+    line-height: 34px;
+  }
+  .btn-order-now {
+    width: 12rem;
+    height: 3rem;
+  }
+  .text-paragraph {
+    font-size: 34px;
+    line-height: 28px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .welcome-div {
+    /* height: 15rem;   */
+  }
+  .bg-welcome {
+    margin-top: 4rem;
+  }
+  .card {
+    width: 100%;
+  }
+
+}

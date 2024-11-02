@@ -1,0 +1,345 @@
+
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+  transition: 0.3s;
+}
+.logo {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.navigation .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  }
+.navigation .menu li {
+  list-style-type: none;
+}
+.navigation .menu li a {
+  color: rgb(99, 99, 99);
+  text-decoration: none;
+  display: block;
+  padding: 0rem 1.6rem;
+  font-size: 1.6rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.navigation .menu li a:hover {
+  color: rgb(33, 33, 33);
+  transition: 1s;
+  box-shadow: 0 -4px 0px #8f8f8f inset, 500px 0 0 rgba(255, 255, 255, 0.03);
+}
+.login-btn {
+  padding-right: 1rem;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6c6c6c;
+  background-color: #6f6f6f00;
+  border: none;
+  line-height: 16.8px;
+  cursor: pointer;
+}
+.sign-btn {
+  width: 8rem;
+  height: 3rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  font-family: "Dongle";
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #6c6c6c;
+  border: 2px solid rgb(57, 55, 55);
+}
+.sign-btn:hover {
+  color:rgb(255, 255, 255);
+  transition: 1s;
+  background-color: rgb(26, 26, 26);
+}
+.sign-wraper {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* burger */
+.hamburger,
+.toggle-menu {
+  display: none;
+}
+.hamburger {
+  position: relative;
+  width: 36px;
+  height: 4px;
+  background-color: #6f6f6f;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 2;
+}
+.hamburger:after,
+.hamburger:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #6c6c6c;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.hamburger:after {
+  top: 10px;
+  width: 25px;
+}
+.hamburger::before {
+  top: -10px;
+}
+.toggle-menu {
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  z-index: 3;
+  cursor: pointer;
+}
+.toggle-menu {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  z-index: 3;
+  cursor: pointer;
+}
+.navigation input:checked ~ .hamburger {
+  background-color: transparent;
+}
+.navigation input:checked ~ .hamburger:after {
+  top: 0;
+  transform: rotate(45deg);
+  width: 30px;
+}
+.navigation input:checked ~ .hamburger:before {
+  top: 0;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+.navigation input:checked ~ .menu {
+  right: 0;
+}
+
+
+
+
+/* section */
+
+.bg-image {
+  background-image: url(../images/pizza-img.png);
+  width: 100%;
+  height: 97vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-color {
+  background-color: black;
+  height: 100%;
+  opacity: 50%;
+  display: flex;
+}
+.main-div {
+  color: rgb(255, 255, 255);
+  display: flex;
+  width: 47.18rem;
+  margin: 0px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  padding: 6rem 2rem;
+}
+h1 {
+  font-size: 114px;
+  font-weight: 500;
+  line-height: 74px;
+}
+.text-p {
+  font-size: 48px;
+  padding: 0 2rem;
+}
+.btn-order-now {
+  width: 15rem;
+  height: 4rem;
+  font-size: 34px;
+  font-family: "Dongle";
+  border-radius: 24px;
+  color:rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #ffffff00;
+  cursor: pointer;
+}
+.btn-order-now:hover {
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* section 2 */
+
+.welcome-div {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+}
+.bg-welcome {
+  margin-top: 4rem;
+  background-image: url(../images/Welcome\ to\ Naples.svg);
+  width: 70%;
+  height: 27vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* .text-h2 {
+  color: rgb(103 102 106);
+  padding-top: 2rem;
+  font-size: 88px;
+  line-height: 78px;
+} */
+.text-paragraph {
+  margin-top: 15%;
+  font-size: 48px;
+  padding: 0 2rem;
+  color: rgb(103 102 106);
+}
+/* .vector-div {
+  display: flex;
+  max-width: 1440px;
+  justify-content: center;
+  align-items: center;
+} */
+.vector-img {
+  width: 44%;
+  /* height: 50px; */
+  margin-top: 8%;
+}
+.welcome-div {
+  height: 55vh;
+  margin-bottom: 14rem;
+}
+.menu-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15% 4%;
+  /* padding: 4%; */
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 18rem;
+  height: 8rem;
+  margin: 2% 2%;
+  border: 2px solid rgb(197, 21, 21);
+  border-radius: 22px;
+}
+.cards-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-p {
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+}
+.Spagetti-img {
+  width: 5rem;
+}
+.Dessert-img {
+  width: 6rem;
+}
+.cocktail-img {
+  width: 6rem;
+}
+.plus-img {
+  width: 4%;
+}
+.plus {
+  width: 14%;
+}
+
+
+/* section 3  */
+
+
+/* .peperoni-div {
+  display: flex;
+  background-color: aqua;
+}
+.peperoni-img {
+  width: 59rem;
+}
+.peperoni {
+  width: 100%;
+}
+.peperoni-text-div {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  width: 100%;
+
+}
+.button-add {
+  display: flex;
+  width: 6rem;
+  justify-content: center;
+
+}
+.title-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 3rem;
+  background-color: #6f6f6f;
+  color: white;
+  align-items: center;
+}
+h4 {
+  font-size: 65px;
+}
+.price {
+  font-size: 44px;
+}
+.ul-div {
+  width: 30rem;
+  background-color: aquamarine;
+  font-size: 20px;
+  padding-left: 2rem;
+}
+ul li {
+  color: #cdcdcd;
+  list-style-type: square;
+  font-size: 30px;
+  margin-right: 5rem;
+}
+.ul-el-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 2rem;
+
+} */
