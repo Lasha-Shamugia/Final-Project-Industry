@@ -3,6 +3,14 @@
   src: url(../fonts/Dongle-Regular.ttf);
 }
 @font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+  font-family: "Allura";
+  src: url(../fonts//Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Niconne";
+  src: url(../fonts//Niconne-Regular.ttf);
+}
+@font-face {
+  font-family: "MarckScript";
+  src: url(../fonts//MarckScript-Regular.ttf);
 }

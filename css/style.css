@@ -11,6 +11,9 @@
 .logo {
   display: flex;
 }
+.img-logo {
+  width: 8rem;
+}
 
 .navigation {
   display: flex;
@@ -283,62 +286,214 @@ h1 {
 
 
 /* section 3  */
+.main-div-peperoni {
+  max-width: 1640px;
 
-
-/* .peperoni-div {
+}
+.popular-title {
+  font-size: 73px;
+  margin: 4rem 3rem;
+}
+.Pepperoni-div {
   display: flex;
-  background-color: aqua;
+  width: 94%;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+  
 }
-.peperoni-img {
-  width: 59rem;
-}
-.peperoni {
+.img-div {
+  display: flex;
   width: 100%;
+  height: 20rem;
+  background-image: url(../images/Pepperoni__Pizza.svg );
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+  background-position: center;
 }
-.peperoni-text-div {
+.active2 {
+  background-image: url(../images/Vegetable_pizza.svg );
+}
+.active3 {
+  background-image: url(../images/gourmet-pizza.svg);
+
+}
+.text-div {
+  width: 85%;
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite;
-  width: 100%;
+  font-size: 45px;
+  padding: 2%;
+  justify-content: space-around;
+  position: relative;
+
+}
+.ol-list {
+  /* margin-top: 12%; */
+  margin-left: 6%;
+  width: 40%;
+}
+.ol-list li {
+ color: #6c6c6c;
+ font-size: 28px;
+ margin-top: 8px;
+ list-style-type: disc;
+}
+.title-pizza {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6c6c6c;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  padding: 0 1.3rem;
+  font-size: 38px;
 
 }
 .button-add {
-  display: flex;
-  width: 6rem;
-  justify-content: center;
-
-}
-.title-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-right: 3rem;
-  background-color: #6f6f6f;
+  position: absolute;
+  width: 10rem;
+  height: 3rem;
+  right: 4%;
+  top: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(184, 5, 5, 0.813);
+  border: none;
+  border-radius: 15px;
   color: white;
-  align-items: center;
+  font-size: 22px;
 }
-h4 {
-  font-size: 65px;
+.button-add:hover {
+  color: rgb(33, 33, 33);
+  background-color: #ffffff;
+  border: 3px solid rgb(163, 4, 4);
 }
-.price {
-  font-size: 44px;
-}
-.ul-div {
-  width: 30rem;
-  background-color: aquamarine;
-  font-size: 20px;
-  padding-left: 2rem;
-}
-ul li {
-  color: #cdcdcd;
-  list-style-type: square;
-  font-size: 30px;
-  margin-right: 5rem;
-}
-.ul-el-div {
+
+
+
+/* section 4 */
+
+
+.section__gray {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
-  padding: 2rem;
+  justify-content: space-around;
+  padding: 2rem 3rem;
+  background-color: rgb(243, 243, 243);
+  }
+  .section__gray .section__div1,
+  .section__gray .section__div2,
+  .section__gray .section__div3 {
+    height: 13rem;
+    width: 18rem;
+    padding: 0 2rem;
+  }
+.section__gray p {
+  font-family: "MarckScript";
+  margin-top: 2%;
+  font-size: 18px;
+  color: #939090;
+  margin-bottom: 14px;
+  }
+.section__gray .flex__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+  font-family: "MarckScript";
+  font-size: 22px;
+  font-weight: 400;
+  }
+.section__gray button {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  border: none;
+  }
+.user-icon {
+  width: 3rem;
+  height: 3rem;
+  }
+.smile-icon {
+  width: 2rem;
+  }
+ 
 
-} */
+.line-container {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  overflow: hidden;
+}
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  animation: move-line 5s linear infinite;
+}
+@keyframes move-line {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+
+
+
+.share-opinion {
+  font-size: 63px;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  font-family: "MarckScript";
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  font-family: "MarckScript";
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 4% 8%;
+}
+
+.col-25 {
+  margin-top: 6px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}

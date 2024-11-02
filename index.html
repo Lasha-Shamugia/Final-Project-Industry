@@ -13,7 +13,7 @@
     <header class="header">
       <div class="logo">
         <a href="#">
-          <img src="./images/Naples.svg" alt="logo-image">
+          <img class="img-logo" src="./images/Naples.svg" alt="logo-image">
         </a>
       </div>
       <nav class="navigation">
@@ -27,9 +27,6 @@
         </ul>
       </nav>
       <div class="sign-wraper">
-        <!-- <div class="login">
-          <button class="login-btn">Log In</button>
-        </div> -->
         <div class="sign">
           <button class="sign-btn">Sign Up</button>
         </div>
@@ -91,33 +88,144 @@
         </div>
       </div>
     </section>
-    <!-- <section>
-      <div class="popular-div">
-        <div><h3>Popular Pizzas of Naples </h3></div>
-        <div class="peperoni-div">
-          <div class="peperoni-img"><img class="peperoni" src="./images/pizza-side-view.png" alt=""></div>
-          <div class="peperoni-text-div">
-            <div class="title-div"><h4>Pepperoni pizza</h4><p class="price">$55,00</p></div>
-            <div class="ul-el-div">
-              <div class="ul-div1"><ul>
+    <section>
+      <div class="main-div-peperoni">
+        <div class="popular-title"><h3>Popular Pizzas of Naples</h3></div>
+        <div class="Pepperoni-div">
+          <div class="img-div"></div>
+          <div class="text-div">
+              <div class="title-pizza"><h5>Pepperoni Pizza</h5><p>$39,90</p></div>
+              <div class="ol-list"><ol>
                 <li>Pepperoni sausage</li>
                 <li>Cheese pizza</li>
                 <li>Red bell pepper</li>
                 <li>Ketchup</li>
-              </ul></div>
-              <div class="ul-div2"><ul>
                 <li>Thyme</li>
                 <li>Tomato</li>
-              </ul></div>
-              <div class="ul-div2"><ul>
+             </ol></div>
+             <div class="batton-div"><button class="button-add">Add to Get</button></div>
+          </div>
+        </div>
+        <div class="Pepperoni-div">
+          <div class="img-div active2"></div>
+          <div class="text-div">
+              <div class="title-pizza"><h5>Vegetables pizza</h5><p>$34,90</p></div>
+              <div class="ol-list"><ol>
+                <li>Mushroom</li>
+                <li>Black olive</li>
+                <li>Mozarrella</li>
+                <li>Peas</li>
+                <li>Corn</li>
+                <li>Tomato</li>
+             </ol></div>
+             <div class="batton-div"><button class="button-add">Add to Get</button></div>
+          </div>
+        </div>
+        <div class="Pepperoni-div">
+          <div class="img-div active3"></div>
+          <div class="text-div">
+              <div class="title-pizza"><h5>Margherita pizza</h5><p>$42,00</p></div>
+              <div class="ol-list"><ol>
+                <li>Basil</li>
+                <li>Mozarrella</li>
+                <li>Black pepper</li>
+                <li>Garlic</li>
                 <li>Thyme</li>
                 <li>Tomato</li>
-              </ul></div>
-            </div>
-            <button class="button-add">Add to Get</button>
+             </ol></div>
+             <div class="batton-div"><button class="button-add">Add to Get</button></div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
+    <section>
+      <div>
+        <div class="share-opinion"><h6>Share your opinion with us</h6></div>
+        <div class="container">
+          <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Send us your feetback..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="section__gray">
+      <div class="section__div1">
+        <div class="flex__row">
+          <img class="user-icon" src="./images/UserIconWoman.png" alt="icon">
+          <div>Madeleine Grant</div>
+        </div>
+        <p>
+          I use this App almost every day and I guess it's on of the greatest apps in our history.
+        </p>
+        <div class="line-container">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="section__div2">
+        <div class="flex__row">
+          <img class="user-icon" src="./images/UserIconMan.png" alt="icon">
+          <div>David Simpson</div>
+        </div>
+        <p>
+          I highly recommend this app! Everything i tried was delicious.
+        </p>
+        <div class="line-container">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="section__div3">
+        <div class="flex__row">
+          <img class="user-icon" src="./images/UserIconWoman2.png" alt="icon">
+          <div>Sandra Gomez</div>
+        </div>
+        <p>
+          Superb! Fast deliverery everything correct! Great service.
+        </p>
+        <div class="line-container">
+          <div class="line"></div>
+        </div>
+        
+
+      </div>
+    </section>
   </body>
 </html>

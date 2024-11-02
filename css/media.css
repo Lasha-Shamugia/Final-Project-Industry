@@ -98,7 +98,36 @@
     font-size: 42px;
     margin-top: 16%;
   }
+  .popular-title {
+    font-size: 54px;
+    margin: 4rem 3rem;
+  }
+  .Pepperoni-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-div {
+    width: 100%;
+  }
+  .text-div {
+    width: 100%;
+
+  }
   
+  .section__gray .section__div1,
+  .section__gray .section__div2,
+  .section__gray .section__div3 {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .section__gray p {
+    font-size: 16px;
+    }
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -130,14 +159,57 @@
     margin-top: 4rem;
     margin-bottom: 1rem;
   }
-  .welcome-div {
-    
-  }
   .bg-welcome {
     margin-top: 4rem;
   }
   .card {
     width: 100%;
+  }
+  .popular-title {
+    font-size: 41px;
+    margin: 4rem 3rem;
+  }
+  .img-div {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background-size: 300px 200px;
+  }
+  .title-pizza {
+    padding: 0 1.3rem;
+    font-size: 30px;
+  
+  }
+  .button-add {
+    width: 8rem;
+    height: 3rem;
+    font-size: 18px;
+  }
+  .ol-list li {
+    font-size: 22px;
+    margin-top: 4px;
+   }
+   .section__gray {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .section__gray .section__div1,
+  .section__gray .section__div2,
+  .section__gray .section__div3 {
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .section__gray p {
+    font-size: 14px;
+    }
+  .flex__row {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 2rem;
   }
 
 }
