@@ -124,13 +124,14 @@
     height: 3rem;
   }
   .text-paragraph {
+    width: 100%;
     font-size: 34px;
     line-height: 28px;
     margin-top: 4rem;
     margin-bottom: 1rem;
   }
   .welcome-div {
-    /* height: 15rem;   */
+    
   }
   .bg-welcome {
     margin-top: 4rem;
