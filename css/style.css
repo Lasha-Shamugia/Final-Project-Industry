@@ -360,13 +360,13 @@ h1 {
   border: none;
   border-radius: 15px;
   color: black;
-  border: 3px solid rgb(163, 4, 4);
+  border: 2px solid rgb(163, 4, 4);
   font-size: 22px;
 }
 .button-add:hover {
   color: white;
   background-color: rgb(163, 4, 4);
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 
@@ -519,20 +519,20 @@ input[type=submit]:hover {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  column-gap: 32px;
+  column-gap: 10%;
 }
 
 .footer-icons {
   display: flex;
   column-gap: 18%;
   justify-items: center;
+  margin-top: 1rem;
 }
 .column {
   width: 76%;
 }
 .column-title {
-  font-size: 23px;
-  font-weight: bold;
+  font-size: 33px;
   margin-bottom: 32px;
 }
 .ul-list {
