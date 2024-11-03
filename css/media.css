@@ -99,8 +99,7 @@
     margin-top: 16%;
   }
   .popular-title {
-    font-size: 54px;
-    margin: 4rem 3rem;
+    font-size: 64px;
   }
   .Pepperoni-div {
     display: flex;
@@ -130,12 +129,24 @@
   }
   .footer {
     display: flex;
-    padding: 2rem 0rem;
+    /* padding: 2rem 0rem; */
     flex-direction: row-reverse;
     column-gap: 4%;
   }
+  .columns-divs {
+    flex-direction: row-reverse;
+    /* margin-top: 10%; */
+    /* row-gap: 64px; */ 
+  }
   .ul-list {
     font-size: 22px;
+    line-height: 18px;
+  }
+  .google-map {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    margin: 3rem auto;
   }
 }
 
@@ -178,8 +189,7 @@
     width: 100%;
   }
   .popular-title {
-    font-size: 41px;
-    margin: 4rem 3rem;
+    font-size: 60px;
   }
   .img-div {
     display: flex;
@@ -190,12 +200,11 @@
   .title-pizza {
     padding: 0 1.3rem;
     font-size: 30px;
-  
   }
   .button-add {
-    width: 8rem;
-    height: 3rem;
-    font-size: 18px;
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 16px;
   }
   .ol-list li {
     font-size: 22px;
@@ -223,14 +232,16 @@
     align-items: center;
     margin-top: 2rem;
   }
-
-
+  label {
+    font-size: 22px; 
+  }
   .footer {
     width: 90%;
   }
   .columns-divs {
     flex-direction: column;
-    /* row-gap: 64px; */
+    margin-top: 2.5rem;
+    /* row-gap: 64px; */ 
   }
   .ul-list {
     display: none;
@@ -239,7 +250,13 @@
     margin-top: 1rem;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
+  }
+  .google-map {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    margin: 3rem auto;
   }
 
 
