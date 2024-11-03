@@ -412,7 +412,6 @@ h1 {
 }  
 .stars-icon {
   margin-top: 1rem;
-
   width: 1.5rem;
 }
  
@@ -440,8 +439,6 @@ h1 {
       transform: translateX(100%);
   }
 }
-
-
 
 
 .share-opinion {
