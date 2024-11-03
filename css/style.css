@@ -455,8 +455,17 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  outline: none;
 }
-
+.input-el.newClass {
+  background-color: rgba(177, 62, 62, 0.219);
+}
+.input-lName.newClassLname {
+  background-color: rgba(177, 62, 62, 0.219);
+}
+.input-FName.newClassFname {
+  background-color: rgba(177, 62, 62, 0.219);
+}
 label {
   font-size: 28px;
   font-family: "MarckScript";
